@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="initial_balance">Initial Balance</string>
+    <string name="email">Email</string>
+    <string name="account_number">Account Number</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="password">Password</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="existing_user_login">Existing User Login</string>
+    <string name="new_user_register">New User Register</string>
+    <string name="user_name">Username</string>
+    <string name="passwords">Password</string>
+    <string name="login">Login</string>
+    <string name="cancels">Cancel</string>
+    <string name="log">Login Button</string>
+    <string name="welcome_message">Welcome, User!</string>
+    <string name="mybank">MyBank</string>
+    <string name="view_accounts">View Accounts</string>
+    <string name="welcome_to_mybank_you_can_use_this_app_to_transfer_money_between_accounts">
+        Welcome to MyBank! You can use this app to transfer money between accounts.
+    </string>
+    <string name="welcome_user">Welcome, User!</string>
+    <string name="all_users">All Users</string>
+    <string name="view_account">View Account</string>
+    <string name="user_details">User Details</string>
+    <string name="balance">Balance</string>
+    <string name="back">Back</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="user_names">User Name</string>
+    <string name="xxxx_xxxx_xxxx_1234">XXXX-XXXX-XXXX-1234</string>
+    <string name="_1000_00">$1000.00</string>
+    <string name="ifsc00001234">IFSC00001234</string>
+    <string name="names">Name:</string>
+    <string name="phone_numbers">Phone Number:</string>
+    <string name="emails">Email:</string>
+    <string name="account_nos">Account No:</string>
+    <string name="balances">Balance:</string>
+    <string name="ifsc_codes">IFSC Code:</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="deposit_cash">Deposit Cash</string>
+    <string name="transfer_money">transfer_money</string>
+    <string name="select_a_recipient">Select a recipient:</string>
+
+    <string name="logout">Logout</string>
+    <string name="view_balance">View Balance</string>
+    <string name="home">Home</string>
+</resources>

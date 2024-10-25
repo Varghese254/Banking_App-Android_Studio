@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0B0A0A"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#0B0A0A"
+        tools:ignore="VisualLintTextFieldSize"
+        android:textColorHint="#333333"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#0B0A0A"
+        tools:ignore="VisualLintTextFieldSize"
+        android:textColorHint="#333333"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>

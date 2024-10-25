@@ -1,0 +1,154 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0B0A0A"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#101010"
+        android:textColorHint="#333333"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Add margin between the input fields -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#0B0A0A"
+        tools:ignore="Autofill"
+        android:textColorHint="#333333"/>
+
+    <EditText
+        android:id="@+id/editTextBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/initial_balance"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333"/>
+
+    <EditText
+        android:id="@+id/editTextAccountNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/account_number"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333" />
+
+    <EditText
+        android:id="@+id/editTextIfscCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ifsc_code"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333"/>
+
+    <EditText
+        android:id="@+id/editTextVerifyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/verify_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#333333" />
+
+    <!-- Space to push buttons down -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!-- Add margin to separate the two buttons -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

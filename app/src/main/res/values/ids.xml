@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewWelcome" type="id" />
+    <item name="btnViewUsers" type="id" />
+    <item name="hmpgmsg" type="id" />
+    <item name="btnTransactionHistory" type="id" />
+    <item name="editTextName" type="id" />
+</resources>
